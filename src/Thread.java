@@ -1,12 +1,6 @@
 
-public class Thread {
- void hello()
- {
-	 System.out.println("hello java");
-	 
- }
  class Multiple extends Thread{
-	 void run()
+	 public void run()
 	 {
 		 System.out.println("Thread is running");  
 	 }
@@ -14,11 +8,9 @@ public class Thread {
 	public void start() {
 		
 	}  
-	 }
 public static void main(String args[])
 {
 	Multiple M1 = new Multiple();
-	M1.start();
-	
+	M1.start();	
 }
 }
