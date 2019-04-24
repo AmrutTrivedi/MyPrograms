@@ -17,7 +17,6 @@ public static void main(String args[])
 {
 	Encapsulation E1 = new Encapsulation("Rajesh");
 	System.out.println(E1.getName());
-	
 }
 }
 
