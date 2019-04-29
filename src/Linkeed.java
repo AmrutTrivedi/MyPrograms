@@ -19,8 +19,5 @@ public static void main(String args[])
 	System.out.println("The list of elements are:"+list);
 	list.removeFirst();
 	System.out.println("The list of elements are:"+list);
-	
-
-	
 }	
 }
