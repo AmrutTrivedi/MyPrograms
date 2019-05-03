@@ -1,17 +1,17 @@
-interface printable{
+interface printableable{
 	void print();
 }
-interface showable{
+interface showableable{
 	void print();
 	}
-class testinterface implements printable,showable{
+class testinterface1 implements printableable,showableable{
 	public void print()
 	{
 		System.out.println("Hello");
 	}
 	public static void main(String args[])
 	{
-		testinterface obj = new testinterface();
+		testinterface1 obj = new testinterface1();
 		obj.print();
 		
 	}

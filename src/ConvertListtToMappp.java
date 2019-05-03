@@ -9,23 +9,19 @@ public class ConvertListtToMappp {
 	public static void main(String args[])
 	{
 		List<String> a = new LinkedList<String>();
-		a.add("Rakesh");
-		a.add("Ramesh");
-		a.add("Hitesh");
+		a.add(new String("Rakesh"));
+		a.add(new String("Ramesh"));
+		a.add(new String("Hitesh"));
 		System.out.println("Result:"+a);
 	}
 	
-	
-	
-	
-	
-		Map<Integer,String>convertList(List<String> list)
+		Map<Integer,String>a1 = a.stream().collect(Collectors.toMap(String::getName,String::getId));
+		
 		{
 			Map<Integer,String> map = new HashMap<Integer,String>();
-			for(Map.Entry<Integer,String> m:map.entrySet())
+			for(Map.Entry<Integer,String> m:map.entrySet())list;
 			{
-			map.put(m.getKey(),String);
-			
-		}
+				
+			}
 		}}
 		

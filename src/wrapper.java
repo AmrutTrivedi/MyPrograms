@@ -9,9 +9,9 @@ public static void main(String args[]) {
 	Double d1 = d;
 	System.out.println("After Autoboxing the values are:\n" +i1+"\n"+c1+"\n"+d1);
 	
-	int i2 =i;				//Unboxing
+	int i2 =i1;				//Unboxing
 	char c2 = c1;
-	double d2 = d;
+	double d2 = d1;
 	System.out.println("After Autoboxing the values are:\n" +i2+"\n"+c2+"\n"+d2);
 }
 }

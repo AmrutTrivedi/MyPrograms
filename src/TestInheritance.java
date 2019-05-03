@@ -1,10 +1,10 @@
-class Animal4{  
+class Animal4mal{  
 		void eat(){System.out.println("eating...");}  
 		}  
-		class Dog extends Animal4{  
+		class Dog1 extends Animal4mal{  
 		void bark(){System.out.println("barking...");}  
 		} 
-		class Cat extends Animal4{  
+		class Cat extends Animal4mal{  
 		void meow(){System.out.println("meowing...");}  
 		}  
 		class TestInheritance3{  
