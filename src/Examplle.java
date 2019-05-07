@@ -1,6 +1,6 @@
 public class Examplle {
 	String Name;
-    static int Roll_No=1;
+     int Roll_No;
 	
 	static String Clg_Name;
 	static int Counter = 0;
@@ -8,12 +8,10 @@ public class Examplle {
 	Examplle(String n)
 	{
 		Name = n;
-		Counter++;
-		
+		Roll_No = Roll_No();
 	}
 	static int Roll_No()
-	{	Roll_No = Roll_No;
-		
+	{	
 		Counter++;
 		return Counter;
 	}
@@ -36,7 +34,7 @@ public static void main(String args[]) {
 	
 	Examplle e1 = new Examplle("Sunil");
 	Examplle e2 = new Examplle("Gaurav");
-	e1.Roll_No();
+	
 	e1.info();
 	e2.info();
 }

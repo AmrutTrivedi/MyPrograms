@@ -14,9 +14,9 @@ public static void main(String args[])
 	while(i.hasNext())
 	{
 		Map.Entry e = (Map.Entry) i.next();
-		System.out.println("After Iterating:"+e);
-		
+		System.out.println("After Iterating:"+e);	
 	}
+	
 	for(Map.Entry m:hm.entrySet())
 	{
 		System.out.println("After Iterating:"+m);
